@@ -83,12 +83,12 @@ public class Vehicle
 	public void printVinDecomposed()
 	{
 		System.out.println("--------------------");
-		System.out.println("Identificatorul producatorului: "+this.vin.subSequence(0, 3));
-		System.out.println("Atributele vehiculului: "+this.vin.subSequence(3, 8));
-		System.out.println("Cifra de verificare: "+this.vin.charAt(8));
-		System.out.println("Anul productiei modelului: "+this.vin.charAt(9));
-		System.out.println("Seria fabricii: "+this.vin.charAt(10));
-		System.out.println("Identificatorul numeric: "+this.vin.subSequence(11, 17));
+		System.out.println("Manufacturer Identifier: "+this.vin.subSequence(0, 3));
+		System.out.println("Vehicle's Attributes: "+this.vin.subSequence(3, 8));
+		System.out.println("Verification Number: "+this.vin.charAt(8));
+		System.out.println("Model Year: "+this.vin.charAt(9));
+		System.out.println("Plant Code: "+this.vin.charAt(10));
+		System.out.println("Numeric Identifier: "+this.vin.subSequence(11, 17));
 		System.out.println("--------------------");
 	}
 	
