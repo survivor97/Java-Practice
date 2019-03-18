@@ -39,13 +39,6 @@ public class InfixToPostfix {
 				numberMakerSb = new StringBuilder();
 			}
 			
-			/* OLD ->
-			//Add to postfix if it is not an operator or bracket
-			else if(!isOperator(input.charAt(i)) && !isOpeningBracket(input.charAt(i)) && !isEndingBracket(input.charAt(i)) && input.charAt(i) != ' ') {
-				postfixSb.append(input.charAt(i)+" ");
-			}
-			*/
-			
 			//Check if it is an operator
 			else if(isOperator(input.charAt(i))) {
 				//check if stack is not null
